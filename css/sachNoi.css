@@ -1,0 +1,162 @@
+body{
+  background: rgb(248, 245, 245);
+}
+.sachNoi-list{
+  margin-left: 130px;
+}
+.introduce{
+  margin: 0 130px;
+  background: #fff;
+  box-shadow: 0 0 1px #000;
+}
+.fa-chevron-right{
+  opacity: 0.3;
+}
+.introduce span{
+  position: relative;
+}
+.fa-quote-left{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 28px;
+  opacity: 0.6;
+}
+.introduce span p{
+  padding: 30px;
+}
+/* Content css */
+.content {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: rgb(248, 245, 245);
+  padding: 10px;
+  margin: 0 100px;
+}
+.content-item{
+  background-color: #fff;
+  margin: 16px 16px;
+}
+.content-item img{
+  width: 140px;
+  height: 200px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 5px #666;
+  margin-top: -20px;
+}
+.content-title,
+.updating,
+.listens{
+  margin: 10px 0 20px 20px;
+}
+.updating,
+.listens{
+  opacity: 0.8;
+  font-size: 14px;
+}
+.listens{
+  padding-top: 10px;
+  width: 150px;
+  border-top: 1px solid rgb(231, 229, 229);
+}
+/* List 2 css */
+.list-2{
+  margin: 0 130px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+.list-2 .navbar{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.list-2 .navbar .nav-item{
+  list-style-type: none;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+.list-2 .navbar .nav-item .nav-link{
+  text-decoration: none;
+  color: #000;
+}
+.list-2-active{
+  border-bottom: 2px solid rgb(26, 1, 252);
+}
+.dem{
+  margin: 0 130px 30px 130px; 
+}
+.p-2{
+  opacity: 0.8;
+}
+
+/* Container css */
+.container{
+  margin: 0 130px;
+  background: #fff;
+  height: 500px;
+  display: flex;
+}
+.container p{
+  font-size: 14px;
+}
+.container-1{
+  width: 700px;
+  margin-left: 20px;
+  padding-top: 1px;
+}
+.container .container-1 button{
+  float: right;
+  background-color: rgb(41, 28, 231);
+  color: #fff;
+  border: none;
+  margin: 0 2px;
+  border-radius: 2px;
+  padding: 4px 6px;
+}
+.container-1-item{
+  margin-top: 50px;
+  width: 700px;
+  height: 240px;
+  background: #000;
+  border-radius: 10px;
+  display: flex;
+}
+.container-1-item img{
+  margin: 18px 18px;
+}
+.container-1-item h3{
+  color: #fff;
+}
+.container-1-item p{
+  color: #fff;
+}
+.container-1-item audio{
+  margin-top: 180px;
+  width: 500px;
+  height: 40px;
+  margin-left: -150px;
+}
+
+.container-2{
+  margin-left: 100px;
+}
+.container-2-item{
+  display: flex;
+}
+.container-2-item img{
+  width: 80px;
+  height: 100px;
+}
+.container-2-item span{
+  margin-left: 10px;
+  margin-top: -10px;
+}
+/* Footer css */
+.sachNoi-footer{
+  padding-top: 1px;
+}

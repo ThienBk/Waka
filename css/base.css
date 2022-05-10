@@ -1,0 +1,233 @@
+*{
+  box-sizing: inherit;
+}
+html{
+  font-family: 'Roboto', Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+/* App css */
+.app{
+  background-image: url(/Boostrap/BaiOfBinh/img/tranh-ve-dong-que.jpg);
+}
+/* Header css */
+.header{
+  height: 60px;
+  background: rgb(31, 182, 26);
+}
+.active{
+  color:rgb(31, 182, 26);
+}
+
+/* Icon css */
+.icon-brand img{
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 20px;
+  left: 182.5px;
+  z-index: 1;
+  box-shadow: 0 0 5px #000;
+}
+.navbar{
+  margin-top: 70px;
+  display: block;
+  height: 40px;
+  margin-left: 260px;
+}
+.navbar .navbar-nav{
+  list-style-type: none;
+  margin: 6px 0;
+}
+.navbar .navbar-nav .nav-item{
+  display: inline-block;
+  position: relative;
+  padding: 0 12px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: 300;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+  color:rgb(31, 182, 26);
+}
+.separate::before{
+  display: block;
+  content: "";
+  width: 1px;
+  height: 20px;
+  background: rgb(207, 204, 204);
+  position: absolute;
+  top:50%;
+  right: -4px;
+  transform: translatey(-50%);
+}
+/* Header css */
+.header{
+}
+.header-fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.header .search{
+  margin-left: 45%;
+  transform: translateX(-45%);
+  text-align: center;
+  padding-top: 14px;
+  position: relative;
+}
+.header .search input{
+  width: 400px;
+  height: 30px;
+}
+.fa-search{
+  background: rgb(1, 61, 172);
+  padding: 4px 10px;
+    /* border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; */
+  position: absolute;
+  margin-left: -106px;
+  top: 39%;
+  color: #fff;
+}
+/* Banner css */
+.banner{
+
+}
+.banner-sachDoc-1{
+  width: 1100px;
+  height: 300px;
+  margin-left: 50%;
+  margin-right: -50%;
+  transform: translateX(-50%);
+  margin-top: -10px;
+  position: relative;
+}
+.banner-sachDoc-2{
+  width: 1100px;
+  height: 100px;
+  margin-left: 50%;
+  margin-right: -50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+}
+.banner ul{
+  position: absolute;
+  top: 0;
+  right: 40px;
+  display: flex;
+  z-index: 1;
+}
+.banner ul{
+  width: 300px;
+  height: 40px;
+  box-shadow: 0 0 10px #000;
+  background: rgba(180, 177, 177, 0.411);
+}
+.banner ul li{
+  list-style-type: none;
+  margin: 0 10px;
+  position: relative;
+}
+.banner ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;  
+}
+.authur-separate::before{
+  display: block;
+  content: "";
+  width: 2px;
+  height: 20px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Footer css */
+.banner-footer-2{
+  height: 100px;
+  width: 100%;
+  background:rgb(2, 92, 37);
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+.fa-arrow-right {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.banner-footer h3{
+  padding-top: 20px;
+}
+.banner-footer p{
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+/* Footer css */
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
+.footer h3{
+  text-align: center;
+}
+.footer-left{
+
+}
+.footer-left-item{
+  display: flex;
+}
+.footer-left-item p{
+  opacity: 0.9;
+  font-size: 14px;
+}
+.footer-left-col-2{
+
+}
+.footer-hotLine{
+  text-align: center;
+  padding: 10px;
+  background: rgb(2, 92, 14);
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.footer-app-1{
+  margin-bottom: 10px;
+}
+.footer-app-1,
+.footer-app-2{
+  display: flex;
+}
+.footer-app-1 img,
+.footer-app-2 img{
+  width: 90px;
+  height: 90px;
+}
+.footer-app-1 span,
+.footer-app-2 span{
+  margin-left: 8px;
+  opacity: 0.9;
+  font-size: 13px;
+  align-items: center;
+}
+.footer-center img{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
